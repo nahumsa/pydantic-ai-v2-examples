@@ -1,0 +1,19 @@
+[project]
+name = "incident-report"
+version = "0.1.0"
+description = "Pydantic AI v2 OpenRouter incident triage agent example"
+readme = "README.md"
+authors = []
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.3",
+    "pydantic-ai-slim[openrouter]>=2.0.0",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+incident-report = "incident_report:main"
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
