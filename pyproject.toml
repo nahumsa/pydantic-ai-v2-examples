@@ -6,12 +6,16 @@ readme = "README.md"
 authors = []
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.4.1",
+    "duckdb>=1.4.3",
     "loguru>=0.7.3",
+    "pandas>=2.3.3",
     "pydantic-ai-slim[openrouter]>=2.0.0",
     "rich>=15.0.0",
 ]
 
 [project.scripts]
+data-analytics = "data_analytics:main"
 incident-report = "incident_report:main"
 
 [build-system]

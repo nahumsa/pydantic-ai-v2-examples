@@ -1,0 +1,15 @@
+supplier_id,supplier_name,product_id,country,lead_time_days,on_time_rate,defect_rate,contract_unit_cost,risk_tier
+SUP-01,Apex Components,P-100,USA,8,0.94,0.012,31.20,low
+SUP-02,BlueThread Textiles,P-220,Mexico,12,0.89,0.018,9.40,medium
+SUP-03,Harbor Home Goods,P-310,Vietnam,21,0.83,0.022,38.75,medium
+SUP-04,IronPeak Manufacturing,P-440,USA,15,0.91,0.010,79.50,low
+SUP-05,FreshRoute Foods,P-510,USA,4,0.96,0.015,4.10,low
+SUP-06,Pacific Circuits,P-100,Taiwan,24,0.78,0.028,28.60,high
+SUP-07,Metro Apparel Works,P-220,USA,9,0.93,0.016,10.20,low
+SUP-08,Atlas Industrial,P-440,Germany,28,0.86,0.009,74.00,medium
+SUP-09,Sterling Medical Supply,P-610,USA,7,0.95,0.011,57.80,low
+SUP-10,Global MedTech Partners,P-610,Ireland,18,0.88,0.014,53.40,medium
+SUP-11,Vector Auto Systems,P-720,Canada,14,0.90,0.017,91.25,medium
+SUP-12,Kyoto Motion Works,P-720,Japan,31,0.81,0.012,86.75,high
+SUP-13,Delta Home Fabrication,P-310,USA,10,0.92,0.019,41.10,low
+SUP-14,Coastal Fresh Logistics,P-510,USA,5,0.91,0.021,3.95,medium

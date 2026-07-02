@@ -1,15 +1,15 @@
-# Pydantic AI v2 + OpenRouter Example
+# Pydantic AI v2 + OpenRouter Examples
 
-This is a small, runnable example of a Pydantic AI v2 agent using OpenRouter.
+This repo contains small, runnable examples of Pydantic AI v2 agents using OpenRouter.
 
-The agent acts like a support-desk helper for a SaaS incident. Give it a short
+The original agent acts like a support-desk helper for a SaaS incident. Give it a short
 customer report, and it checks recent service status data, decides whether the
 service is operational, degraded, or down, and writes a structured triage report.
 If the incident needs a customer notification, it asks for approval before
 simulating an email.
 
-The goal is to show a realistic Pydantic AI setup without turning the example
-into a full application.
+The goal is to show realistic Pydantic AI setups without turning the examples
+into full applications.
 
 ## What This Shows
 
@@ -19,6 +19,7 @@ into a full application.
 - Adding dynamic instructions from customer context.
 - Registering tools on capabilities.
 - Handling tools that require approval.
+- Asking for user context and persisting it in typed runtime deps.
 - Returning structured Pydantic output.
 - Writing the final result to a Markdown report.
 
@@ -137,7 +138,7 @@ tool runs without blowing through the usage limit.
 
 ## How It Is Put Together
 
-The main path is:
+The incident-report path is:
 
 1. `cli.py` parses arguments, creates the OpenRouter model, and creates sample
    support-desk context.
