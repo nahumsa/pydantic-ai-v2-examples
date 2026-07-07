@@ -17,6 +17,7 @@ dependencies = [
 [project.scripts]
 data-analytics = "data_analytics:main"
 incident-report = "incident_report:main"
+capabilities = "capabilities_example:main"
 
 [build-system]
 requires = ["uv_build>=0.9.26,<0.10.0"]
