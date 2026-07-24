@@ -11,6 +11,7 @@ dependencies = [
     "loguru>=0.7.3",
     "pandas>=2.3.3",
     "pydantic-ai-slim[openrouter]>=2.0.0",
+    "pydantic-settings>=2.14.2",
     "rich>=15.0.0",
 ]
 
@@ -18,6 +19,8 @@ dependencies = [
 data-analytics = "data_analytics:main"
 incident-report = "incident_report:main"
 capabilities = "capabilities_example:main"
+sentiment_analysis = "sentiment_analysis:main"
+tech_lead_simulator = "tech_lead_simulator:main"
 
 [build-system]
 requires = ["uv_build>=0.9.26,<0.10.0"]

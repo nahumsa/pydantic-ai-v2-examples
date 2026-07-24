@@ -59,3 +59,11 @@ Chat commands:
 :help
 :quit
 ```
+
+### Sentiment Analysis
+
+Simple sentiment analysis pipeline based on <https://github.com/facultyai/pydantic-ai-course/tree/main>
+
+### Tech Lead Simulator
+
+Example of using dynamic prompts based on <https://github.com/facultyai/pydantic-ai-course/tree/main>
